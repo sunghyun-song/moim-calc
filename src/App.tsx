@@ -181,10 +181,12 @@ export default function App() {
         {/* 헤더 */}
         <Box sx={{ mb: 3 }}>
           <Typography component="h1" sx={{ fontSize: 26, fontWeight: 800, letterSpacing: '-0.02em' }}>
-            모임회식정산계산기
+            모임 회식 정산 계산기
           </Typography>
           <Typography variant="body2" sx={{ color: 'text.secondary', mt: 0.5 }}>
-            안주값은 모두 똑같이, 술값은 마신 사람끼리 나눠요.
+            술 마신 사람과 안 마신 사람을 따로 정산해요.
+            <br />
+            안주값은 모두 똑같이, 술값은 마신 사람끼리만 나눠요.
           </Typography>
         </Box>
 
